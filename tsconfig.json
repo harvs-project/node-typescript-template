@@ -7,17 +7,9 @@
     "outDir": "./out/",
     "rootDir": "./src/",
     "composite": true,
-    "incremental": true,
     "tsBuildInfoFile": "./.ts-build-info",
 
     "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
 
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -29,7 +21,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
 
-    "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules/", "out/", "src/**/*.spec.ts"]
