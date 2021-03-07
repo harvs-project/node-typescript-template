@@ -24,6 +24,13 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
 
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": true,
+    "extendedDiagnostics": true,
+    "explainFiles": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules/", "out/", "src/**/*.spec.ts"]

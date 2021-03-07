@@ -1,10 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "build": "tsc --build .",
+    "build": "tsc --generateCpuProfile '.ts.cpuprofile'",
     "test": "mocha",
+    "start": "nodemon --enable-source-maps --inspect out/main.js",
     "lint": "concurrently 'eslint .' 'prettier --loglevel warn --check .'",
-    "start": "concurrently 'tsc --pretty -w' 'nodemon --inspect -w out/main.js out/main.js'"
+    "hack": "concurrently 'npm:build -- -w' 'npm:start -- -w out/'"
   },
   "devDependencies": {
     "@types/mocha": "^8.2.1",
