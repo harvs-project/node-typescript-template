@@ -1,6 +1,12 @@
-import { createServer } from 'http'
+/**
+ * Dependency injection configuration
+ * The service module re-exports every service implementation. This
+ * is required because otherwise the implementations are never executed.
+ */
+import 'reflect-metadata'
+import Types from './di'
+import './service'
 
-createServer((req, res) => {
-  res.write(`${req.url} agora vai e coda dinamicamente!`)
-  res.end()
-}).listen(8000)
+import { Container } from 'typedi'
+
+Container.get(Types.IApplication).run(process.argv)
