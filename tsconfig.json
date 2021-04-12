@@ -7,7 +7,7 @@
     "outDir": "./out/",
     "rootDir": "./src/",
     "composite": true,
-    "tsBuildInfoFile": "./.ts-build-info",
+    "tsBuildInfoFile": "./out/.ts-build-info",
 
     "strict": true,
 
@@ -21,16 +21,16 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
 
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
 
     "inlineSourceMap": true,
     "inlineSources": true,
     "declaration": true,
     "declarationMap": true,
     "importHelpers": true,
-    "extendedDiagnostics": true,
-    "explainFiles": true
+    "extendedDiagnostics": false,
+    "explainFiles": false
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules/", "out/", "src/**/*.spec.ts"]
