@@ -1,11 +1,11 @@
 /**
  * Represents a node.js application
  */
-export default interface IApplication {
+export type IApplication = Readonly<{
   /**
    * @method run Process entry point
    * @param argv Command line arguments
    * @return Process exit status code
    */
-  run(argv: ReadonlyArray<string>): number
-}
+  main(argv: ReadonlyArray<string>): number
+}>
