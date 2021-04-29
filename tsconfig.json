@@ -4,10 +4,10 @@
     "module": "commonjs",
     "lib": ["es2020"],
     "moduleResolution": "node",
-    "outDir": "./out/",
-    "rootDir": "./src/",
+    "outDir": "dist/",
+    "rootDir": "src/",
     "composite": true,
-    "tsBuildInfoFile": "./out/.ts-build-info",
+    "tsBuildInfoFile": ".ts-build-info",
 
     "strict": true,
 
@@ -28,10 +28,8 @@
     "inlineSources": true,
     "declaration": true,
     "declarationMap": true,
-    "importHelpers": true,
-    "extendedDiagnostics": false,
-    "explainFiles": false
+    "importHelpers": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules/", "out/", "src/**/*.spec.ts"]
+  "exclude": ["node_modules/", "dist/", "test/**/*.ts"]
 }
