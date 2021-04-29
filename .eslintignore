@@ -1,0 +1,5 @@
+!.eslintrc.js
+!.mocharc.js
+!.prettierrc.js
+
+dist/
