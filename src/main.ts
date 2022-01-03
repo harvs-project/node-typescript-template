@@ -1,3 +1,1 @@
-import { NodeApplication, ConsoleLogger } from './implementation'
-
-process.exit(NodeApplication(ConsoleLogger()).main(process.argv))
+process.exit(0)
