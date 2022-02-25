@@ -1,5 +1,2 @@
 node_modules/
-dist/
 
-.ts-build-info
-.ts.cpuprofile
