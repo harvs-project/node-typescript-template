@@ -1,5 +1,9 @@
 {
   "private": true,
+  "workspaces": [
+    "api",
+    "www"
+  ],
   "devDependencies": {
     "typescript": "^4.6.3",
     "@types/node": "^17.0.23"
