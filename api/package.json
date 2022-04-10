@@ -1,7 +1,12 @@
 {
   "private": true,
+  "name": "api",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/"
+  },
   "devDependencies": {
-    "typescript": "*",
-    "@types/node": "^17.0.23"
+    "@types/node": "^17.0.23",
+    "typescript": "*"
   }
 }
