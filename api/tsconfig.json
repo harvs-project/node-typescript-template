@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+    ],
+    "target": "ES2021"
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
