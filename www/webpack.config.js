@@ -9,6 +9,23 @@ module.exports = {
         test: /\.tsx?$/,
         use: "ts-loader",
       },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: "style-loader",
+          },
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1,
+            },
+          },
+          {
+            loader: "postcss-loader",
+          },
+        ],
+      },
     ],
   },
   resolve: {
@@ -32,5 +49,5 @@ module.exports = {
     compress: true,
     port: 9000,
   },
-  devtool: "source-map"
+  devtool: "source-map",
 };
