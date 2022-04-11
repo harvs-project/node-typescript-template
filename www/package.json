@@ -2,6 +2,13 @@
   "private": true,
   "name": "www",
   "devDependencies": {
+    "@types/react": "^18.0.1",
+    "@types/react-dom": "^18.0.0",
     "typescript": "*"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
   }
 }
