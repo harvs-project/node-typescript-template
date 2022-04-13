@@ -1,5 +1,16 @@
 import * as React from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
+import Header from "./components/header"
+import Footer from "./components/footer"
 
-createRoot(document.getElementById("root") as Element).render(<h1>App</h1>);
+const App = () => {
+  return (
+    <React.StrictMode>
+      <Header />
+      <main>Olá mundo!</main>
+      <Footer />
+    </React.StrictMode>
+  );
+};
+
+createRoot(document.getElementById("root") as Element).render(<App />);
