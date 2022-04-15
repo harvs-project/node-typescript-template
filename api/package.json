@@ -6,7 +6,7 @@
     "start": "node dist/"
   },
   "devDependencies": {
-    "@types/node": "^17.0.23",
+    "@types/node": "^17.0.24",
     "typescript": "*"
   }
 }
