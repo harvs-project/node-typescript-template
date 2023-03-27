@@ -1108,7 +1108,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cross-spawn", "npm:7.0.3"],\
             ["diff", "npm:4.0.2"],\
             ["globby", "npm:11.1.0"],\
-            ["got", "npm:11.8.3"],\
+            ["got", "npm:11.8.6"],\
             ["lodash", "npm:4.17.21"],\
             ["micromatch", "npm:4.0.5"],\
             ["p-limit", "npm:2.3.0"],\
@@ -3103,10 +3103,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["got", [\
-        ["npm:11.8.3", {\
-          "packageLocation": "./.yarn/cache/got-npm-11.8.3-caf98d599b-3b6db107d9.zip/node_modules/got/",\
+        ["npm:11.8.6", {\
+          "packageLocation": "./.yarn/cache/got-npm-11.8.6-89e7cd5d67-bbc783578a.zip/node_modules/got/",\
           "packageDependencies": [\
-            ["got", "npm:11.8.3"],\
+            ["got", "npm:11.8.6"],\
             ["@sindresorhus/is", "npm:4.6.0"],\
             ["@szmarczak/http-timer", "npm:4.0.6"],\
             ["@types/cacheable-request", "npm:6.0.2"],\
